@@ -2,7 +2,6 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    
 }
 
 .header {
@@ -10,7 +9,7 @@ body {
     padding-right: 10%;
     padding-top: 10px;
     padding-bottom: 50px;
-    background-color: #627ea7;
+    background-color: #5e8d5a;
 
 }
 
@@ -41,9 +40,15 @@ ul {
 
 .HeaderImage {
     background-color: darkslategray;
-    text-align: center;
     max-width: 50%;
 }
+
+/*
+.content-container {
+    background-image: url(images/GrassField.jpeg);
+    background-size: cover;
+}
+*/
 
 .content {
     justify-content: center;
@@ -51,6 +56,13 @@ ul {
     text-align: center;
     margin-bottom: 100px;
     flex-wrap: wrap;
+}
+
+.content-text {
+    background-color: rgb(235, 243, 220);
+    border-radius: 15px 30px;
+    border: 5px solid #a0ca8d;
+    padding: 6px;
 }
 
 .info {
@@ -61,11 +73,12 @@ ul {
     width: 200px;
     height: 200px;
     object-fit: cover;
+    border: 5px solid #a0ca8d;
     border-radius: 30px 60px;
 }
 
 .quote {
-    background-color:#627ea7;
+    background-color: #d9e0d7;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 30%;
@@ -85,7 +98,7 @@ ul {
     justify-content: space-around;
     margin: 50px;
     gap: 500px;
-    background-color: #627ea7;
+    background-color: #e1ee68;
     border-radius: 30px;
     align-items: center;
     padding: 30px;
@@ -98,4 +111,10 @@ ul {
     flex-direction: column;
     flex: 0 1 auto;
     margin: 0;
+}
+
+.footer {
+    text-align: center;
+    background-color: #5e8d5a;
+    padding: 25px;
 }
