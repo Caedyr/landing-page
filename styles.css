@@ -1,19 +1,60 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    
 }
 
 .header {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    background-color: #627ea7;
+
+}
+
+.header-top {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 ul {
     display: flex;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .intro, .content {
     display: flex;
 }
 
+.intro-left {
+    max-width: 50%;
+}
+
+.content-title {
+    text-align: center;
+}
+
+.HeaderImage {
+    background-color: darkslategray;
+    text-align: center;
+    max-width: 50%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    text-align: center;
+}
+
+.goat {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 30px 60px;
+}
