@@ -19,11 +19,17 @@ body {
     margin-bottom: 50px;
 }
 
+.logo {
+    font-size: 24px;
+}
+
 ul {
     display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    font-size: 18px;
+    gap: 5px;
 }
 
 .intro, .content {
@@ -32,6 +38,12 @@ ul {
 
 .intro-left {
     max-width: 50%;
+    font-size: 18px;
+}
+
+.intro-left h1 {
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .content-title {
@@ -87,6 +99,7 @@ ul {
 
 .quote-text {
     text-align: center;
+    font-style: italic;
 }
 
 .quote-author {
@@ -97,13 +110,15 @@ ul {
     display: flex;
     justify-content: space-around;
     margin: 50px;
-    gap: 500px;
+    margin-left: 100px;
+    margin-right: 100px;
+    flex: 1 1 auto;
+    gap: 0px;
     background-color: #e1ee68;
     border-radius: 30px;
     align-items: center;
     padding: 30px;
-    max-width: 800px;
-    align-self: center;
+    align-self: stretch;
 }
 
 .call-left {
