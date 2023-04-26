@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 .header {
@@ -9,7 +10,7 @@ body {
     padding-right: 10%;
     padding-top: 10px;
     padding-bottom: 50px;
-    background-color: #5e8d5a;
+    background-color: #2e7028;
 
 }
 
@@ -21,6 +22,7 @@ body {
 
 .logo {
     font-size: 24px;
+    color:#a0ca8d;
 }
 
 ul {
@@ -32,8 +34,15 @@ ul {
     gap: 5px;
 }
 
-.intro, .content {
+a {
+    text-decoration: none;
+    color:#a0ca8d;
+}
+
+.intro {
     display: flex;
+    color:#f6fff1;
+    gap: 20px;
 }
 
 .intro-left {
@@ -46,13 +55,34 @@ ul {
     font-weight: 900;
 }
 
-.content-title {
-    text-align: center;
+button {
+    background-color:#5e8d5a;
+    color:#d9e0d7;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.signupbutton {
+    background-color:#5e8d5a;
+    color:#d9e0d7;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 14px;
 }
 
 .HeaderImage {
     background-color: darkslategray;
     max-width: 50%;
+    object-fit:cover;
+    border: 5px solid #a0ca8d;
+    border-radius: 15px;
+    max-height: 400px;
+}
+
+.content-title {   
+    text-align: center;
+    font-size: 18px;
 }
 
 /*
@@ -63,6 +93,7 @@ ul {
 */
 
 .content {
+    display: flex;
     justify-content: center;
     gap: 80px;
     text-align: center;
@@ -126,6 +157,10 @@ ul {
     flex-direction: column;
     flex: 0 1 auto;
     margin: 0;
+}
+
+.call-left-title {
+    font-size: 24px;
 }
 
 .footer {
